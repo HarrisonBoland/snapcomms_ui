@@ -5,10 +5,13 @@ import './Users.css';
 function Users(props) {
   return (
     <div className="users">
-      <span></span>
-      <span>{props.title}</span>
+      <label class="container">
+        {props.title}
+        <input type="checkbox" />
+        <span class="checkmark"></span>
+      </label>
     </div>
-    );
+  );
 }
 
 export default Users;
