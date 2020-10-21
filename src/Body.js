@@ -14,7 +14,7 @@ function Body() {
           <option value="newemployee">New Employee</option>
           <option value="emergencyalert">Emergency Alert</option>
         </select>
-        <h2 className="title">Write Message</h2>
+        <h2 className="title">Write message</h2>
         <input type="text" placeholder="Give your message a title" className="name" />
         <textarea rows="20" cols="50" className="message" />
         <button className="body__send">SEND</button>
