@@ -5,10 +5,10 @@ import './Users.css';
 function Users(props) {
   return (
     <div className="users">
-      <label class="container">
+      <label className="container">
         {props.title}
         <input type="checkbox" />
-        <span class="checkmark"></span>
+        <span className="checkmark"></span>
       </label>
     </div>
   );

@@ -2,6 +2,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+*:focus {
+  outline: none;
+}
+
 * {
   margin: 0;
   padding: 0;
