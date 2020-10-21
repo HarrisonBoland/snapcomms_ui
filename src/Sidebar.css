@@ -1,6 +1,6 @@
 .sidebar {
   border-right: 6px solid #f37223;
-  height: 89vh;
+  height: 100vh;
   flex: 0.2;
   background-color: #E0E0E0;
   padding-left: 10px;
@@ -10,4 +10,17 @@
 .sidebar__header {
   padding: 10px;
   text-align: center;
+}
+
+.selection {
+  width: 90%;
+  background-color:#c4c2c2;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.selection:hover {
+  background-color:#adacac;
 }

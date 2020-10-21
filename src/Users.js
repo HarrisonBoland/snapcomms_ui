@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Users({ icon, title }) {
+import './Users.css';
+
+function Users(props) {
   return (
     <div className="users">
-      <h1>ok</h1>
+      <span></span>
+      <span>{props.title}</span>
     </div>
     );
 }
