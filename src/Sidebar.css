@@ -1,0 +1,13 @@
+.sidebar {
+  border-right: 6px solid #f37223;
+  height: 89vh;
+  flex: 0.2;
+  background-color: #E0E0E0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebar__header {
+  padding: 10px;
+  text-align: center;
+}
