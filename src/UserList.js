@@ -3,8 +3,6 @@ import React from 'react';
 import Users from './Users';
 
 function UserList(props) {
-  console.log(props.show);
-
   if (props.show === 'allusers') {
     return (
       <div>

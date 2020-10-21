@@ -21,7 +21,7 @@
 .body__selection {
   border-radius: 25px;
   width: 50%;
-  background-color:#c4c2c2;
+  background-color:#dddcdc;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   margin-top: 10px;
@@ -30,12 +30,12 @@
 }
 
 .body__selection:hover {
-  background-color:#adacac;
+  background-color:#cccbcb;
 }
 
 .name {
   width: 100%;
-  background-color:#c4c2c2;
+  background-color:#dddcdc;
   padding: 12px 16px;
   margin-top: 15px;
   margin-bottom: 5px;
@@ -47,13 +47,14 @@
 .message {
   resize: none;
   width: 100%;
-  background-color:#c4c2c2;
+  background-color:#dddcdc;
   padding: 12px 16px;
   margin-top: 5px;
   margin-bottom: 15px;
   border-radius: 25px;
   border: 1px solid grey;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
 }
 
 .body__send {
@@ -64,4 +65,5 @@
   border-radius: 25px;
   border: 1px solid black;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
 }
