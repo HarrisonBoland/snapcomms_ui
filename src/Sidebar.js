@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './Sidebar.css';
 import UserList from './UserList';
 
-function Sidebar() {
+function Sidebar(props) {
   const [ show, setShow ] = useState('allusers')
 
   const selectionHandler = (event) => {
@@ -13,7 +13,7 @@ function Sidebar() {
   //console.log(show)
 
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${props.next ? 'next' : ''}`}>
       <div className="sidebar__header">
         <h1>Users</h1>
         <select name="selection" className="sidebar__selection" onChange={selectionHandler}>

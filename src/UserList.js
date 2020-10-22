@@ -7,7 +7,7 @@ function UserList(props) {
     return (
       <div>
         <Users title="Amy White" id="1" type="driver" />
-        <Users title="Dan The Man" id="2" type="developer" />
+        <Users title="Dan Snow" id="2" type="developer" />
         <Users title="Erlich Bachman" id="3" type="sales" />
         <Users title="Harrison Boland" id="4" type="developer" />
         <Users title="John Doe" id="5" type="sales" />
@@ -25,7 +25,7 @@ function UserList(props) {
     return (
       <div>
         {props.show === 'driver' ? <Users title="Amy White" id="1" type="driver" /> : null}
-        {props.show === 'developer' ? <Users title="Dan The Man" id="2" type="developer" /> : null}
+        {props.show === 'developer' ? <Users title="Dan Snow" id="2" type="developer" /> : null}
         {props.show === 'sales' ? <Users title="Erlich Bachman" id="3" type="sales" /> : null}
         {props.show === 'developer' ? <Users title="Harrison Boland" id="4" type="developer" /> : null}
         {props.show === 'sales' ? <Users title="John Doe" id="5" type="sales" /> : null}
